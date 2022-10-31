@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tns:request xmlns:tns="http://epgu.gosuslugi.ru/it-courses/schoolchild/1.3.0" oktmo="MNSV75_3S">
+  <tns:Service>
+    <tns:currentDate>2022-10-21</tns:currentDate>
+    <tns:userType>PERSON_RF</tns:userType>
+    <tns:orderId>2233205867</tns:orderId>
+    <tns:orderStatusCode>draft</tns:orderStatusCode>
+    <tns:TargetId>-10000000420</tns:TargetId>
+    <tns:TargetName>Программа «Код Будущего»</tns:TargetName>
+    <tns:DepartmentId>-202204081314</tns:DepartmentId>
+    <tns:DepartmentName>Университет Национальной технологической инициативы</tns:DepartmentName>
+    <tns:okato>04403000000</tns:okato>
+  </tns:Service>
+  <tns:CourseId>26210</tns:CourseId>
+	<tns:DelegateInfo>1</tns:DelegateInfo>
+	<tns:VariantChoice>
+    <tns:KP_GSP_01>1</tns:KP_GSP_01>
+    	</tns:VariantChoice>
+  	<tns:RecipientPersonalData>
+            		<tns:fullfio>Лазаренко Ефим Максимович</tns:fullfio>
+		<tns:lastname>Лазаренко</tns:lastname>
+		<tns:firstname>Ефим</tns:firstname>
+		      <tns:middlename>Максимович</tns:middlename>
+    		<tns:dateBirth>2005-08-21</tns:dateBirth>
+		<tns:snils>162-413-032 19</tns:snils>
+          <tns:gender>MALE</tns:gender>
+    		<tns:EsiaID>1158385044</tns:EsiaID>
+		<tns:birthplace>г. Ачинск</tns:birthplace>
+		<tns:Phone>+7(993)9550821</tns:Phone>
+		<tns:Email>efim.lazarenko.98@mail.ru</tns:Email>
+		<tns:DocumentPersonal>
+		      <tns:typeDoc>Паспорт гражданина РФ</tns:typeDoc>
+      <tns:nameDoc>Паспорт гражданина РФ</tns:nameDoc>
+    			<tns:docseries>0419</tns:docseries>
+      <tns:docnumber>411081</tns:docnumber>
+      <tns:issuedate>2019-09-03</tns:issuedate>
+      <tns:issueorg>ГУ МВД РОССИИ ПО КРАСНОЯРСКОМУ КРАЮ</tns:issueorg>
+		      <tns:issueidPassportRF>240009</tns:issueidPassportRF>
+    		</tns:DocumentPersonal>
+	</tns:RecipientPersonalData>
+
+</tns:request>
