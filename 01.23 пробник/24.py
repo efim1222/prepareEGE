@@ -1,0 +1,10 @@
+f = open('24_5955.txt')
+s = f.readline()
+s = s.replace('C', '*')
+s = s.replace('D', '*')
+s = s.replace('F', '*')
+s = s.replace('A', '#')
+s = s.replace('O', '#')
+a = '*##*'
+s = s.split(a)
+print(len(max(s, key=len)))
