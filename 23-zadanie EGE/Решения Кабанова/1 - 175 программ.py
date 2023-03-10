@@ -7,7 +7,7 @@
 def f(a, b):
     if a > b: return 0
     if a == b: return 1
-    if a < b: f(a + 1, b) + f(a + 5, b) + f(a * 3, b)
+    if a < b: return f(a + 1, b) + f(a + 5, b) + f(a * 3, b)
     
 for i in range(2, 100):
     if f(1, i) == 175:
